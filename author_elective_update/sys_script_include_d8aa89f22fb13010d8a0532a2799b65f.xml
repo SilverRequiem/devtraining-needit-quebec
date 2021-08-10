@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_58872_needit.TodayPlus3</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>This simple script only sums 3 days to the actual date</description>
+        <name>TodayPlus3</name>
+        <script><![CDATA[var TodayPlus3 = Class.create();
+TodayPlus3.prototype = {
+    initialize: function() {},
+    DueDate3: function() {
+        var gdt = new GlideDateTime();
+        gdt.addDaysUTC(+3);
+//         gs.info(gdt.getDate());
+    },
+    type: 'TodayPlus3'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-09 17:53:20</sys_created_on>
+        <sys_id>d8aa89f22fb13010d8a0532a2799b65f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TodayPlus3</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_d8aa89f22fb13010d8a0532a2799b65f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-09 17:53:20</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>8788f489db8d3704f492c59705961923</instance_id>
+        <instance_name>dev83241</instance_name>
+        <name>sys_script_include_d8aa89f22fb13010d8a0532a2799b65f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_58872_needit.TodayPlus3&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;This simple script only sums 3 days to the actual date&lt;/description&gt;&lt;name&gt;TodayPlus3&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var TodayPlus3 = Class.create();
+TodayPlus3.prototype = {
+    initialize: function() {},
+    DueDate3: function() {
+        var gdt = new GlideDateTime();
+        gdt.addDaysUTC(+3);
+//         gs.info(gdt.getDate());
+    },
+    type: 'TodayPlus3'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-09 17:53:20&lt;/sys_created_on&gt;&lt;sys_id&gt;d8aa89f22fb13010d8a0532a2799b65f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;TodayPlus3&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_d8aa89f22fb13010d8a0532a2799b65f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-09 17:53:20&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2096939848</payload_hash>
+        <record_name>TodayPlus3</record_name>
+        <reverted_from/>
+        <source>6d4c14a52f713010d8a0532a2799b682</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-09 17:53:20</sys_created_on>
+        <sys_id>582b89f22fb13010d8a0532a2799b604</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b2c0c2c760000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-09 17:53:20</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>902b89f28bb13010714798562d1cc804</update_guid>
+        <update_guid_history>902b89f28bb13010714798562d1cc804:2096939848</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-09 21:52:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>5ca3ab24b928495da4839aa0c7ac23d9</sys_id>
+        <sys_metadata>d8aa89f22fb13010d8a0532a2799b65f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TodayPlus3</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_include_d8aa89f22fb13010d8a0532a2799b65f</sys_update_name>
+        <sys_update_version display_value="sys_script_include_d8aa89f22fb13010d8a0532a2799b65f">582b89f22fb13010d8a0532a2799b604</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-09 21:52:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
